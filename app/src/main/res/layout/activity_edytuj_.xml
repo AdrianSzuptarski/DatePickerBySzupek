@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dodaj_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.szupek.datepickerszupek.dodaj_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linear1">
+        <TextView
+            android:text="@string/DataDodaj"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView_data"
+            android:textSize="20dp"
+            android:layout_width="100dp" />
+
+        <TextView
+            android:text="@string/PodajDateDodaj"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_dodaj" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linear1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:id="@+id/linearCalosc">
+
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearMiejscowosc"
+                android:layout_below="@+id/linear1">
+
+                <TextView
+                    android:text="@string/MiejscowośćDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2_miejscowosc" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajMiejscowośćDodaj"
+
+                    android:id="@+id/editText_miejscowosc" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearLokal"
+                >
+
+                <TextView
+                    android:text="@string/LokalDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_lokal" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:hint="@string/PodajLokalDodaj"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/editTextLokal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearImie">
+                <TextView
+                    android:text="@string/ImieDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewImie" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajImieDodaj"
+                    android:id="@+id/editImie" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearNazwisko">
+                <TextView
+                    android:text="@string/NazwiskoDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewNazwisko" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajNazwiskoDodaj"
+                    android:id="@+id/editNazwisko" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearUklon">
+                <TextView
+                    android:text="@string/MiejsceUklonuDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewUklon" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajMiejsceUklonuDodaj"
+                    android:id="@+id/editUklon" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearGodzibaUklony">
+                <TextView
+                    android:text="@string/GodzinaUklonuDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewGodzinaUklonu" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajGodzinaUklonuDodaj"
+                    android:id="@+id/editgodzinaUklonu" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearCena">
+                <TextView
+                    android:text="@string/CenaDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewCena" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajCeneDodaj"
+                    android:id="@+id/editCena" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearGodzinaWyjazdu">
+                <TextView
+                    android:text="@string/WyjazdODodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewGodzinaWyjazdu" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajWyjazdODodaj"
+                    android:id="@+id/editGodzinaWyjazdu" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearTelefon1">
+                <TextView
+                    android:text="@string/TelefonMlodyDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewMloda" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajTelefonMlodyDodaj"
+                    android:id="@+id/edittelefonMlody" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearTelefon2">
+                <TextView
+                    android:text="@string/TelefonMlodaDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTelefonMlody" />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/PodajTelefonMlodaDodaj"
+                    android:id="@+id/editTelefonMloda" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearNotatki">
+                <TextView
+                    android:text="@string/NotatkiDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVieNotatki" />
+
+
+
+                <Button
+                    android:text="@string/DodajBTNDodaj"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/btnDodajNotatke"
+                    android:onClick="DodajNotatke"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:text="@string/PokazBTNDodaj"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearUmowa">
+                <TextView
+                    android:text="@string/UmowaDodaj"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewUmowa" />
+                <Button
+                    android:text="@string/DodajUmoweBTNDodaj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonDodajUmowe"
+                    android:layout_weight="1" />
+                <Button
+                    android:text="@string/PokazUmoweBTNDodaj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonPokazUmowe"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearDodaj">
+
+                <Button
+                    android:text="@string/ZatwierdzzmianyEdytuj"
+                    android:onClick="DodajSzczegoluButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonZatwierdzZmiany"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

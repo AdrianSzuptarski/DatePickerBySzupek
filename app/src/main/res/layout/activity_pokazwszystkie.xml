@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pokazwszystkie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.szupek.datepickerszupek.PokazWszystkie">
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="480dp"
+            android:orientation="vertical"
+            android:id="@+id/linearCalosc">
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearWszystkie"
+            android:layout_below="@+id/linear1">
+
+            <TextView
+                android:text="asdasdasdasdasdasdasdasdasd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="54dp"
+                android:id="@+id/TXTPokazWszystkie" />
+        </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlacznie"
+        android:layout_below="@+id/linearCalosc"
+        android:weightSum="1">
+
+        <TextView
+            android:text="lacznie"
+            android:layout_width="fill_parent"
+            android:layout_height="71dp"
+            android:id="@+id/TXTWszystkielacznie"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

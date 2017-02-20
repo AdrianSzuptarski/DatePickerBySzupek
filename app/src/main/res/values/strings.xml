@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DatePickerSzupek</string>
+    <string name="title_activity_przyklady">Przyklady</string>
+    <string name="NapisBazaData">data</string>
+
+
+    <!-- Activity Main -->
+    <string name="DodajBTNMain">Dodaj</string>
+    <string name="PokazBTNMain">Pokaz</string>
+
+
+    <!-- Activity_dodaj/Activity_Dodaj2 -->
+    <string name="DataDodaj">Data :</string>
+    <string name="PodajDateDodaj">Data:</string>
+    <string name="MiejscowośćDodaj">Miejscowość :</string>
+    <string name="PodajMiejscowośćDodaj">Podaj Miejscowosc</string>
+    <string name="LokalDodaj">Lokal :</string>
+    <string name="PodajLokalDodaj">Podaj Nazwe Lokalu</string>
+    <string name="ImieDodaj">Imie :</string>
+    <string name="PodajImieDodaj">Podaj Imie</string>
+    <string name="NazwiskoDodaj">Nazwisko :</string>
+    <string name="PodajNazwiskoDodaj">Podaj Nazwisko</string>
+    <string name="MiejsceUklonuDodaj">Miejsce Ukłonu:</string>
+    <string name="PodajMiejsceUklonuDodaj">Miejsce Ukłonu</string>
+    <string name="GodzinaUklonuDodaj">Godzina Ukłonu</string>
+    <string name="PodajGodzinaUklonuDodaj">Godzina Ukłonu</string>
+    <string name="CenaDodaj">Cena :</string>
+    <string name="PodajCeneDodaj">Podaj Cenę</string>
+    <string name="WyjazdODodaj">Wyjazd o</string>
+    <string name="PodajWyjazdODodaj">Godzina Wyjazdu</string>
+    <string name="TelefonMlodyDodaj">Telefon Młody</string>
+    <string name="PodajTelefonMlodyDodaj">Telefon Młody</string>
+    <string name="TelefonMlodaDodaj">Telefon Młoda</string>
+    <string name="PodajTelefonMlodaDodaj">Telefon Młoda</string>
+    <string name="NotatkiDodaj">Notatki</string>
+    <string name="DodajBTNDodaj">Dodaj</string>
+    <string name="PokazBTNDodaj">"Pokaż</string>
+    <string name="UmowaDodaj">Umowa</string>
+    <string name="DodajUmoweBTNDodaj">Dodaj Umowę</string>
+    <string name="PokazUmoweBTNDodaj">Pokaż Umowę</string>
+    <string name="DodajSzczegolyUmowtBTNDodaj">Dodaj Szczegółu do Umowy</string>
+    <string name="UsunWeseleBTNDodaj">Usuń Wesele</string>
+    <string name="EdytujUmoweBTNDodaj">Edytuj Umowę</string>
+
+
+    <!-- Edytuj Activity -->
+
+    <string name="ZatwierdzzmianyEdytuj">Zatwierdź zmiany</string>
+
+
+    <string name="DataBazaDAnych">Data</string>
+
+
+</resources>
